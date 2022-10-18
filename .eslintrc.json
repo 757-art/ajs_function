@@ -10,6 +10,19 @@
         "error",
         "LabeledStatement",
         "WithStatement"
-      ]
+      ],
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
+      "eol-last": [
+        "error",
+        "never"
+      ],
+      "no-unused-vars": [
+        "error",
+        { "vars": "all", "ignoreRestSiblings": false }
+      ],
+      "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": [], "ignoreOnInitialization": true }]
     }
   }
